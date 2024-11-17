@@ -2,10 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { ArrowRight, GraduationCap, Mail, Linkedin, Building2 } from 'lucide-react'
+import { ArrowRight, GraduationCap, Mail, Linkedin } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
-import { Switch } from "@/components/ui/switch"
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -106,7 +104,7 @@ export default function Portfolio() {
         >
           <h1 className="text-7xl font-bold mb-6">
             <span className="bg-gradient-to-r from-purple-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Hello! I'm
+              Hello! I&apos;m
               <br />
               Anushruti Singh
             </span>
@@ -160,10 +158,10 @@ export default function Portfolio() {
               className="space-y-6"
             >
               <p className="text-lg text-gray-700">
-                A dynamic Marketing Manager with a flair for crafting compelling narratives and a keen eye for analytics. Over the past five years, I've been at the forefront of developing marketing strategies that not only capture attention but also deliver measurable results.
+                A dynamic Marketing Manager with a flair for crafting compelling narratives and a keen eye for analytics. Over the past five years, I&apos;ve been at the forefront of developing marketing strategies that not only capture attention but also deliver measurable results.
               </p>
               <p className="text-lg text-gray-700">
-                My journey has taken me from the bustling halls of international business schools to leading campaigns for top-tier firms. I'm driven by curiosity, fueled by creativity, and committed to making a meaningful impact in the marketing landscape.
+                My journey has taken me from the bustling halls of international business schools to leading campaigns for top-tier firms. I&apos;m driven by curiosity, fueled by creativity, and committed to making a meaningful impact in the marketing landscape.
               </p>
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="text-4xl font-bold text-purple-600 mb-2">5+</div>
@@ -237,9 +235,9 @@ export default function Portfolio() {
                 title: "Marketing Manager",
                 company: "CMC Canada",
                 achievements: [
-                  "Spearheaded groundbreaking marketing campaign integrating TradingView with CMC's CFD trading platform",
-                  "Managed and optimized paid social campaigns, increasing engagement by 35%",
-                  "Collaborated with UX/UI teams to enhance website, resulting in 25% improvement in user experience",
+                  "Spearheaded groundbreaking marketing campaign integrating TradingView with CMC&apos;s CFD trading platform",
+                  "Managed and optimized paid social campaigns, increasing engagement by 35&percnt;",
+                  "Collaborated with UX/UI teams to enhance website, resulting in 25&percnt; improvement in user experience",
                   "Developed comprehensive content strategies and conducted competitive research"
                 ]
               },
@@ -250,7 +248,7 @@ export default function Portfolio() {
                   "Addressed 10-year decline in aviation insurance by revamping digital strategy",
                   "Led cross-functional teams across web development, UX/UI, stakeholders, and creatives",
                   "Reduced data submission time from 50 to 10 minutes with new dynamic website",
-                  "Executed A/B testing and optimized marketing spend, leading to 20% increase in conversions"
+                  "Executed A/B testing and optimized marketing spend, leading to 20&percnt; increase in conversions"
                 ]
               },
               {
@@ -258,7 +256,7 @@ export default function Portfolio() {
                 company: "Raymond James",
                 achievements: [
                   "Strategized email marketing campaigns for B2B insurance and wealth management",
-                  "Automated email campaigns and customer journeys, enhancing engagement by 30%",
+                  "Automated email campaigns and customer journeys, enhancing engagement by 30&percnt;",
                   "Developed and implemented remarketing strategies increasing client retention"
                 ]
               },
@@ -266,9 +264,9 @@ export default function Portfolio() {
                 title: "Marketing Intern",
                 company: "City of Mississauga",
                 achievements: [
-                  "Launched \"Digital Main Street\" initiative for local business digital transformation",
+                  "Launched &quot;Digital Main Street&quot; initiative for local business digital transformation",
                   "Designed customer journeys and brand strategies for emerging businesses",
-                  "Created social media strategies, increasing followers by 40%"
+                  "Created social media strategies, increasing followers by 40&percnt;"
                 ]
               }
             ].map((role, index) => (
