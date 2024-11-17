@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight, GraduationCap, Mail, Linkedin } from 'lucide-react'
 import { Button } from "@/components/ui/button"
+import { Switch } from "@/components/ui/switch"
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -121,7 +122,7 @@ export default function Portfolio() {
             className="bg-purple-600 hover:bg-purple-700 text-white rounded-full group"
           >
             <a href="#contact" className="flex items-center gap-2">
-              Let's Connect
+              Let&apos;s Connect
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
@@ -347,7 +348,7 @@ export default function Portfolio() {
             whileInView={{ opacity: 1 }}
             className="text-4xl font-bold mb-16 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
           >
-            Let's Connect
+            Let&apos;s Connect
           </motion.h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <motion.a
