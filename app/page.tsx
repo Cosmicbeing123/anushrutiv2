@@ -236,38 +236,40 @@ export default function Portfolio() {
                 title: "Marketing Manager",
                 company: "CMC Canada",
                 achievements: [
-                  "Spearheaded groundbreaking marketing campaign integrating TradingView with CMC&apos;s CFD trading platform",
-                  "Managed and optimized paid social campaigns, increasing engagement by 35&percnt;",
+                  "Managed a $3.5M marketing budget in 2024, exceeding lead acquisition targets by 120% through strategic digital campaigns and optimizing acquisition frameworks.",
+                  "Developed data-driven dashboards integrating CRM and ad platforms like Google Ads, Bing, ASA, and LinkedIn, utilizing A/B testing and personalized strategies to enhance customer acquisition and retention.",
                   "Collaborated with UX/UI teams to enhance website, resulting in 25&percnt; improvement in user experience",
-                  "Developed comprehensive content strategies and conducted competitive research"
+                  "Designed tailored marketing strategies for new products aligned with target audiences, collaborating with overseas marketing teams (Australia, UK, Singapore) to execute impactful campaigns across digital and social media platforms.",
+                  "Reinforced CMC Markets’ brand presence in the Canadian market by aligning campaigns with sales, product, and global marketing teams, improving engagement and retention while optimizing budget allocation for maximum ROI.;"
                 ]
               },
               {
                 title: "Digital Marketing Specialist",
-                company: "Marsh McLennan",
+                company: "Marsh",
                 achievements: [
-                  "Addressed 10-year decline in aviation insurance by revamping digital strategy",
-                  "Led cross-functional teams across web development, UX/UI, stakeholders, and creatives",
-                  "Reduced data submission time from 50 to 10 minutes with new dynamic website",
-                  "Executed A/B testing and optimized marketing spend, leading to 20&percnt; increase in conversions"
+                  "Led the modernization of a 50-year-old aviation insurance platform by developing a dynamic new website, reducing data submission time from 50 to 10 minutes and increasing conversions by 20% through A/B testing and optimized spend.",
+                  "Designed impactful global marketing campaigns to elevate brand awareness and demand generation, collaborating with sales and stakeholders to align strategies and enhance user experiences using Salesforce Marketing Cloud and Adobe Experience Manager (AEM).",
+                  "Delivered measurable results through integrated digital, social, and event campaigns, nurturing client relationships and driving business growth.;"
                 ]
               },
               {
-                title: "Marketing Coordinator",
+                title: "Digital Marketing Coordinator",
                 company: "Raymond James",
                 achievements: [
-                  "Strategized email marketing campaigns for B2B insurance and wealth management",
-                  "Automated email campaigns and customer journeys, enhancing engagement by 30&percnt;",
-                  "Developed and implemented remarketing strategies increasing client retention"
+                  "Boosted engagement by 30% through automated email marketing campaigns for B2B and B2C insurance, leveraging automation to enhance customer journeys and significantly improving client retention with targeted remarketing strategies.",
+                  "Increased web traffic by 30% with engaging campaigns, showcasing expertise in marketing technologies like automation tools, WordPress, and content management systems, and coordinated product enhancements, digital asset management, and newsletter development.",
+                  "Created data-driven content aligned with market trends, supported by research and analytics, delivering cohesive social media campaigns to enhance brand messaging, consistently improving audience engagement, visibility, and retention.;"
                 ]
               },
               {
-                title: "Marketing Intern",
+                title: "Digital Marketing Consultant",
                 company: "City of Mississauga",
                 achievements: [
-                  "Launched &quot;Digital Main Street&quot; initiative for local business digital transformation",
-                  "Designed customer journeys and brand strategies for emerging businesses",
-                  "Created social media strategies, increasing followers by 40&percnt;"
+                  "Supported local businesses through the "Digital Main Street" initiative by providing consulting services for digital transformation, improving their online presence and engagement.",
+                  "Designed customer journeys and brand strategies for emerging businesses, focusing on building cohesive brand experiences that drive both acquisition and retention.",
+                  "Developed social media strategies that increased follower growth, applying data-driven insights from tools like Google Analytics, Facebook Business Manager, and Google Ads to optimize engagement and conversion metrics."
+                  "Extended the reach of business support programs and government grants through strategic marketing, live Q&As, webinars, and consulting sessions."
+                  "Created content for Instagram, Twitter, Facebook, and YouTube using Figma and Hootsuite, crafting brand campaigns and paid media strategies aligned with strategic customer acquisition goals.;"
                 ]
               }
             ].map((role, index) => (
@@ -316,9 +318,9 @@ export default function Portfolio() {
               },
               {
                 year: "2018",
-                degree: "Bachelor of Commerce",
-                school: "HLIC Ahmedabad",
-                description: "Focus on marketing fundamentals and business administration."
+                degree: "Bachelor of Commerce - specialise in Banking, Corporate, Finance, and Securities Law",
+                school: "Ahmedabad University",
+                description: "Focus on Finance, marketing fundamentals and business administration."
               }
             ].map((edu, index) => (
               <motion.div
