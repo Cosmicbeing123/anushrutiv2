@@ -122,7 +122,7 @@ export default function Portfolio() {
             className="bg-purple-600 hover:bg-purple-700 text-white rounded-full group"
           >
             <a href="#contact" className="flex items-center gap-2">
-              Let's Connect
+              <p>Let&apos;s Connect</p>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
           </Button>
