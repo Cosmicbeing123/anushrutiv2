@@ -159,10 +159,10 @@ export default function Portfolio() {
               className="space-y-6"
             >
               <p className="text-lg text-gray-700">
-                A dynamic Marketing Manager with a flair for crafting compelling narratives and a keen eye for analytics. Over the past five years, I&apos;ve been at the forefront of developing marketing strategies that not only capture attention but also deliver measurable results.
+                A dynamic Marketing Manager with a flair for crafting compelling narratives and a keen eye for analytics. Over the past five years, I've been at the forefront of developing marketing strategies that not only capture attention but also deliver measurable results.
               </p>
               <p className="text-lg text-gray-700">
-                My journey has taken me from the bustling halls of international business schools to leading campaigns for top-tier firms. I&apos;m driven by curiosity, fueled by creativity, and committed to making a meaningful impact in the marketing landscape.
+                My journey has taken me from the bustling halls of international business schools to leading campaigns for top-tier firms. I'm driven by curiosity, fueled by creativity, and committed to making a meaningful impact in the marketing landscape.
               </p>
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="text-4xl font-bold text-purple-600 mb-2">5+</div>
@@ -238,9 +238,9 @@ export default function Portfolio() {
                 achievements: [
                   "Managed a $3.5M marketing budget in 2024, exceeding lead acquisition targets by 120% through strategic digital campaigns and optimizing acquisition frameworks.",
                   "Developed data-driven dashboards integrating CRM and ad platforms like Google Ads, Bing, ASA, and LinkedIn, utilizing A/B testing and personalized strategies to enhance customer acquisition and retention.",
-                  "Collaborated with UX/UI teams to enhance website, resulting in 25&percnt; improvement in user experience",
+                  "Collaborated with UX/UI teams to enhance website, resulting in 25% improvement in user experience",
                   "Designed tailored marketing strategies for new products aligned with target audiences, collaborating with overseas marketing teams (Australia, UK, Singapore) to execute impactful campaigns across digital and social media platforms.",
-                  "Reinforced CMC Markets’ brand presence in the Canadian market by aligning campaigns with sales, product, and global marketing teams, improving engagement and retention while optimizing budget allocation for maximum ROI.;"
+                  "Reinforced CMC Markets’ brand presence in the Canadian market by aligning campaigns with sales, product, and global marketing teams, improving engagement and retention while optimizing budget allocation for maximum ROI."
                 ]
               },
               {
@@ -249,7 +249,7 @@ export default function Portfolio() {
                 achievements: [
                   "Led the modernization of a 50-year-old aviation insurance platform by developing a dynamic new website, reducing data submission time from 50 to 10 minutes and increasing conversions by 20% through A/B testing and optimized spend.",
                   "Designed impactful global marketing campaigns to elevate brand awareness and demand generation, collaborating with sales and stakeholders to align strategies and enhance user experiences using Salesforce Marketing Cloud and Adobe Experience Manager (AEM).",
-                  "Delivered measurable results through integrated digital, social, and event campaigns, nurturing client relationships and driving business growth.;"
+                  "Delivered measurable results through integrated digital, social, and event campaigns, nurturing client relationships and driving business growth."
                 ]
               },
               {
@@ -258,18 +258,18 @@ export default function Portfolio() {
                 achievements: [
                   "Boosted engagement by 30% through automated email marketing campaigns for B2B and B2C insurance, leveraging automation to enhance customer journeys and significantly improving client retention with targeted remarketing strategies.",
                   "Increased web traffic by 30% with engaging campaigns, showcasing expertise in marketing technologies like automation tools, WordPress, and content management systems, and coordinated product enhancements, digital asset management, and newsletter development.",
-                  "Created data-driven content aligned with market trends, supported by research and analytics, delivering cohesive social media campaigns to enhance brand messaging, consistently improving audience engagement, visibility, and retention.;"
+                  "Created data-driven content aligned with market trends, supported by research and analytics, delivering cohesive social media campaigns to enhance brand messaging, consistently improving audience engagement, visibility, and retention."
                 ]
               },
               {
                 title: "Digital Marketing Consultant",
                 company: "City of Mississauga",
                 achievements: [
-                  "Supported local businesses through the Digital Main Street initiative by providing consulting services for digital transformation, improving their online presence and engagement.",
+                  "Supported local businesses through the \"Digital Main Street\" initiative by providing consulting services for digital transformation, improving their online presence and engagement.",
                   "Designed customer journeys and brand strategies for emerging businesses, focusing on building cohesive brand experiences that drive both acquisition and retention.",
-                  "Developed social media strategies that increased follower growth, applying data-driven insights from tools like Google Analytics, Facebook Business Manager, and Google Ads to optimize engagement and conversion metrics."
-                  "Extended the reach of business support programs and government grants through strategic marketing, live Q&As, webinars, and consulting sessions."
-                  "Created content for Instagram, Twitter, Facebook, and YouTube using Figma and Hootsuite, crafting brand campaigns and paid media strategies aligned with strategic customer acquisition goals.;"
+                  "Developed social media strategies that increased follower growth, applying data-driven insights from tools like Google Analytics, Facebook Business Manager, and Google Ads to optimize engagement and conversion metrics.",
+                  "Extended the reach of business support programs and government grants through strategic marketing, live Q&As, webinars, and consulting sessions.",
+                  "Created content for Instagram, Twitter, Facebook, and YouTube using Figma and Hootsuite, crafting brand campaigns and paid media strategies aligned with strategic customer acquisition goals."
                 ]
               }
             ].map((role, index) => (
@@ -318,9 +318,9 @@ export default function Portfolio() {
               },
               {
                 year: "2018",
-                degree: "Bachelor of Commerce - specialise in Banking, Corporate, Finance, and Securities Law",
+                degree: "Bachelor of Commerce - specialize in Banking, Corporate, Finance, and Securities Law",
                 school: "Ahmedabad University",
-                description: "Focus on Finance, marketing fundamentals and business administration."
+                description: "Focused on finance, marketing fundamentals, and business administration."
               }
             ].map((edu, index) => (
               <motion.div
@@ -350,7 +350,7 @@ export default function Portfolio() {
             whileInView={{ opacity: 1 }}
             className="text-4xl font-bold mb-16 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
           >
-            Let&apos;s Connect
+            Let's Connect
           </motion.h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <motion.a
