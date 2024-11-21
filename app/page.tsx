@@ -265,7 +265,7 @@ export default function Portfolio() {
                 title: "Digital Marketing Consultant",
                 company: "City of Mississauga",
                 achievements: [
-                  "Supported local businesses through the 'Digital Main Street' initiative by providing consulting services for digital transformation, improving their online presence and engagement.",
+                  "Supported local businesses through the Digital Main Street initiative by providing consulting services for digital transformation, improving their online presence and engagement.",
                   "Designed customer journeys and brand strategies for emerging businesses, focusing on building cohesive brand experiences that drive both acquisition and retention.",
                   "Developed social media strategies that increased follower growth, applying data-driven insights from tools like Google Analytics, Facebook Business Manager, and Google Ads to optimize engagement and conversion metrics."
                   "Extended the reach of business support programs and government grants through strategic marketing, live Q&As, webinars, and consulting sessions."
