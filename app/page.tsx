@@ -318,7 +318,7 @@ export default function Portfolio() {
               },
               {
                 year: "2018",
-                degree: "Bachelor of Commerce - specialise in Banking, Corporate, Finance, and Securities Law",
+                degree: "Bachelor of Commerce - specialise in Banking, Corporate, Finance, and Insurance",
                 school: "Ahmedabad University",
                 description: "Focus on Finance, marketing fundamentals and business administration."
               }
