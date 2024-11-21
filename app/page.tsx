@@ -48,36 +48,36 @@ export default function Portfolio() {
   ]
 
   const technicalSkills = [
-    'Google Ads & Analytics',
-    'HubSpot CRM',
-    'Salesforce Marketing Cloud',
-    'Microsoft Power BI',
-    'Tableau',
-    'Figma',
-    'Adobe Creative Suite',
-    'Microsoft Dynamics 365',
-    'Apple Search Ads',
-    'Bing Ads',
-    'Shopify',
-    'WordPress'
-  ]
+  'Google Ads & Analytics',
+  'HubSpot CRM',
+  'Salesforce Marketing Cloud',
+  'Microsoft Power BI',
+  'Tableau',
+  'Figma',
+  'Adobe Creative Suite',
+  'Microsoft Dynamics 365',
+  'Apple Search Ads',
+  'Bing Ads',
+  'Shopify',
+  'WordPress'
+]; // Added semicolon
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
+const scrollToSection = (sectionId: string) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
   }
+};
 
-  return (
-    <div className="min-h-screen bg-pink-50">
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
-        <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link 
-            href="/"
-            className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
-          >
-            AS
+return (
+  <div className="min-h-screen bg-pink-50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+      <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <Link 
+          href="/"
+          className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
+        >
+          AS
           </Link>
           <ul className="flex space-x-8">
             {['Home', 'About', 'Skills', 'Experience', 'Education', 'Contact'].map((item) => (
